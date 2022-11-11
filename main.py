@@ -145,7 +145,7 @@ def main():
         answer = input("Press enter to play (Q to quit)")
         if answer == "q":
             break
-        balance = spin(balance)
+        balance += spin(balance)
 
     print(f"You left with {balance}")
 
